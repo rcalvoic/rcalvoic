@@ -1,24 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Web Page
+
+This is a personal web page built with Next.js (TypeScript, Tailwind CSS, App Router) inspired by https://profiles.imperial.ac.uk/r.calvo.
+
+## Features
+- Clean, professional, and responsive design
+- Sections: Biography, Research, Publications, Contact, Links
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Install dependencies
+```
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Run the development server
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Customization
+Edit the content in the `src/app` directory to update your information and sections.
+
+---
+
+This project was bootstrapped with Next.js and Tailwind CSS.
 
 ## Learn More
 
